@@ -1,0 +1,29 @@
+{
+	"name": "jif-dashboard",
+	"version": "1.3.5",
+	"description": "",
+	"main": "dashboard-core.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/jpmorganchase/jif-dashboard.git"
+	},
+	"author": "JPMorgan Chase ",
+	"contributors":[
+		"Jasmine Feng",
+		"Ilya Uts",
+		"Felix Shnir"
+	],
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/jpmorganchase/jif-dashboard/issues"
+	},
+	"homepage": "https://github.com/jpmorganchase/jif-dashboard#readme",
+	"dependencies": {
+		"draggabilly": "^2.1.1",
+		"packery": "^2.1.1",
+		"underscore": "^1.8.3"
+	}
+}
