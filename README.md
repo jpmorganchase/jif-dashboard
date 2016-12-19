@@ -3,6 +3,9 @@ A dashboard framework to quickly build widget-based dashboards with.
 
 Supports sections built out of widgets using a packery grid. Check out the `Samples` folder for a starting template.
 
+## Demo
+[See live demo here](https://jpmorganchase.github.io/jif-dashboard/demo/)
+
 ## Quickstart
 Using npm and webpack
 
