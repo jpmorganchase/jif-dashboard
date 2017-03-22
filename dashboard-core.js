@@ -98,7 +98,7 @@ window.Dashboard = {
 	// Optional module to enforce placement order
 	render: {
 		unstub: function(id) {
-			$('#stub-' + id).remove();
+			$('#stub-' + Dashboard.Utils.selectorEscape(id)).remove();
 		},
 
 		stub: function(id) {
@@ -111,14 +111,14 @@ window.Dashboard = {
 		},
 
 		widget: function(id, el) {
-			$('#stub-' + id).replaceWith(el);
+			$('#stub-' + Dashboard.Utils.selectorEscape(id)).replaceWith(el);
 			Dashboard.render.unstub(id);
 		}
 	},
 
 	addWidget: function(widget) {
 
-		if(!widget.name) {
+		if (!widget.name) {
 			widget.name = widget.widgetId;
 		}
 

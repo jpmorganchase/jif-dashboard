@@ -12,7 +12,7 @@ var Utils = {
 		if(!quiet) {
 			this.debug('Emitting ' + e);
 		}
-		
+
 		if (e) {
 			$(document).trigger('WidgetInternalEvent', [ e ]);
 		}
@@ -48,6 +48,10 @@ var Utils = {
 			}
 		}
 	},
+
+	selectorEscape: function(id) {
+		return id.replace( /(:|\.|\[|\]|,|=|@)/g, '\\$1' );
+	}
 }
 
 window.Dashboard.Utils = Utils;
