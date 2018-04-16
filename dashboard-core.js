@@ -440,7 +440,7 @@ window.Dashboard = {
 	},
 
 	// clear the grounds of any displayed widgets
-	// TODO: using show/hide CSS fuckery. Could be easier in the long run to
+	// TODO: using show/hide CSS. Could be easier in the long run to
 	// remove from DOM
 	clear: function(currentSection) {
 		var _this = this;
