@@ -13,6 +13,14 @@ module.exports = {
 	  aggregateTimeout: 300,
 	  poll: 1000
   },
+  resolve: {
+    alias: {
+      // bind version of jquery-ui
+      'jquery-ui': 'jquery-ui-dist/jquery-ui.js',
+      // bind to modules;
+      modules: path.join(__dirname, 'node_modules'),
+    }
+  },
   devServer: {
 	  historyApiFallback: true,
 	  hot: true,

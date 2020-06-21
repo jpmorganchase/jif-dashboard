@@ -1,7 +1,6 @@
 import 'bootstrap';
 import 'd3';
 import 'jquery-ui';
-import moment from 'moment';
 
 import 'dashboard-framework/dashboard-core';
 import 'dashboard-framework/dashboard-util';
