@@ -454,7 +454,14 @@ a:active {
 
 @media screen and (max-width: 850px) {
 	.tower-navigation {
-		height: 100px;
+		height: 75px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.tower-logo-container{
+		border-style: none;
 	}
 	.tower-logo-container.tower-nav-min {
 		-webkit-transform: translate3d(0, 0, 0);
@@ -468,13 +475,10 @@ a:active {
 		display: none;
 	}
 	.tower-logo-container {
-		display: block;
-		float: none;
 		width: 100%;
-		border-bottom: 1px solid #F2F2F2;
 	}
 	.tower-sidebar {
-		top: 100px;
+		top: 75px;
 	}
 	.tower-sidebar.tower-nav-min {
 		-webkit-transform: translate3d(-200px, 0, 0);
