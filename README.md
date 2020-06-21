@@ -225,3 +225,6 @@ This will show the widget if it was hidden. `opts` is an object: `{widgetId: 123
 A few utils methods are provided in `dashboard-util.js`.
 
 **emit**: Prints a maintenance message to the console, and triggers a `WidgetInternalEvent` the type of which can be passed into the emit call. This is helpful for triggering other events on the dashboard.
+
+# Getting Help
+Stuck at some step? Please join our <a href="https://www.goquorum.com/slack-inviter" target="_blank" rel="noopener">slack community</a> for support.
