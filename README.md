@@ -19,7 +19,7 @@ Add jif-dashboard and dependencies to the `package.json` file:
 	"jif-dashboard": "^1.0.0",
 }
 ```
-
+and then run `npm install` or `npm i` command at the root of your project
 ### Webpack
 Import the files into CSS and JS files:
 
