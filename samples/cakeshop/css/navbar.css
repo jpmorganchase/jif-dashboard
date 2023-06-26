@@ -1,0 +1,116 @@
+.navbar {
+    width: 100vw;
+    background-color: red;
+    height: 50px;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.1), 0 -5px 2px 2px
+		rgba(0, 0, 0, 0.1);
+	background: white;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-logo {
+    font-weight: 900;
+    margin: 0px 30px;
+    font-size: 22px;
+}
+
+.container {
+    position: relative;
+    margin: 0px 30px;
+    width:30px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+   
+  }
+  
+  .popup-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: white;
+    border-radius: 5px;
+  
+    display: none;
+    width: max-content;
+    padding: 20px 15px;
+    /* height: fit-content; */
+    border-top: 3px solid black;
+
+  }
+
+  .popup-menu::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -10px;
+    right: 10px;
+    width: 0px;
+    height: 0px;
+    /* background-color: rgb(0, 0, 0); */
+    /* transform: rotate(45deg); */
+    z-index: 10;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(0, 0, 0);
+  }
+
+  .popup-menu  h4{
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+  }
+  
+  .popup-menu ul {
+    list-style-type: none;
+    /* background-color: aqua; */
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    
+  }
+  .dropdown-item {
+    background-color: red;
+  }
+
+  .popup-menu li {
+    /* margin-bottom: 5px; */
+  }
+  
+  .popup-menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .show {
+    display: block;
+   
+  }
+  
+
+
+body{ all: unset;}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed'),
+        local('RobotoCondensed-Regular'),
+        url(.././fonts/roboto.woff2) format('woff2'),
+        url(.././fonts/roboto.woff) format('woff');
+  }

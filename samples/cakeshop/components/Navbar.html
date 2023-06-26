@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar</title>
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+   
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('popupMenu');
+            menu.classList.toggle('show');
+          }
+        
+        function refreshPage() {
+            location.reload();
+        }
+
+    </script>
+</head>
+<body>
+        <header> 
+            <div class="navbar">
+                <div class="navbar-logo">
+                    Sample // Dashboard
+                </div>
+               
+                <div class="container">
+                    <button class="icon-button" onclick="toggleMenu()">
+                      <i class="fa fa-cog dropdown-toggle"></i>
+                    </button>
+                    <div class="popup-menu" id="popupMenu">
+                        <ul>
+							<li  href="#"><h4>Settings</h4></li>
+							<li id="reset" href="#" ><a  href="#">Reset Layouts</a></li>  
+						</ul>	
+                    </div>
+                  </div>
+                
+            </div>
+        </header>
+</body>
+</html>
